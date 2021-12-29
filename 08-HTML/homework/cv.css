@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif , Helvetica, sans-serif;
+ 
+}
+body {
+  background-color: rgba(112, 224, 255, 0.8);
+}
+h1 {
+    font-family: 'bitter', 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 0.612rem;
+    padding: 1rem;
+    text-align: center;
+    letter-spacing: 0.125rem;
+   
+}
+h2 {
+    font-family: 'bitter', 'Courier New', Courier, monospace;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin: 0.512rem;
+    padding: 1rem;
+    text-align: center;
+    letter-spacing: 0.125rem;
+    
+}
+h3 {
+    font-family: 'bitter', 'Courier New', Courier, monospace;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 0.512rem;
+    padding: 1rem;
+    text-align: center;
+    letter-spacing: 0.125rem;
+}
+.descripcion-personal p {
+    line-height: 1.5rem;
+    padding-left: 0.8rem;
+}
+ ul li {
+    font-weight: 600;
+    padding: 1rem;
+}
+
+p {
+    padding-left: 1rem;
+    line-height: 1.5rem;
+}
+.foto-perfil {
+    display:flex;
+    justify-content: center;
+}
+.foto-perfil img {
+    width: 500px;
+    border: 3px solid #FFF;
+    margin: 0.625rem 0 0.625rem 0;
+    
+}
+ul li a {
+    text-decoration: none;
+    color: #1b1b1b;
+    display: flex;
+    justify-content: space-between;
+
+}
+ul li a:hover {
+    color: #AD6899;
+}
+
+
